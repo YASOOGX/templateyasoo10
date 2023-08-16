@@ -1,0 +1,243 @@
+@media (max-width: 992px) {
+  /* part conrses  */
+  .corsess .autoplay .card h3 {
+    height: 80px;
+    font-size: 20px;
+    text-align: right;
+  }
+  /* end part corses  */
+}
+@media (max-width: 768px) {
+  /* start part head  */
+  /*//////////////// logo */
+
+  header .logo img {
+    width: 30px;
+  }
+  header .logo h3 {
+    font-size: 17px;
+    text-align: right;
+  }
+  .bar > button:first-of-type {
+    outline: var(--button) 1px solid;
+    color: var(--button);
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  }
+  header .links > li {
+    font-size: 20px;
+  }
+  /* end part head  */
+  /* start part landing  */
+  .fadex .text {
+    text-align: center;
+    position: absolute;
+    right: 15%;
+    top: 55%;
+    width: 70%;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 22;
+  }
+  .fadex .text p:first-of-type {
+    margin: 0;
+    padding: 0;
+    color: var(--bink);
+    font-weight: bolder;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .fadex .text h2 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .fadex .text p:last-of-type {
+    padding: 0 !important;
+    color: var(--yellow);
+    font-weight: bolder;
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+  .buttoncor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttoncor button {
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    width: 140px;
+    margin-right: 0px;
+  }
+  .buttoncor button:last-of-type {
+    background-color: var(--button);
+    color: white;
+    font-weight: bolder;
+  }
+  .pageser .textser input {
+    width: 150px;
+  }
+  .pageser .textser button {
+    padding: 10px 15px;
+  }
+  /* end part landing  */
+  /* start part who us  */
+  .who-us .col .content-text {
+    margin-bottom: 50px;
+  }
+  .col .image {
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+  }
+  .col .image .bg-transform img {
+    width: 75%;
+    height: 75%;
+  }
+  .col .image .bg-transform {
+    left: -70px;
+  }
+  @keyframes trans {
+    0% {
+      left: -70px;
+    }
+    50% {
+      left: -25px;
+    }
+    100% {
+      left: -70px;
+    }
+  }
+  .col .image .bg-front {
+    right: -25%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .col .image .bg-front img {
+    width: 50%;
+  }
+  /* end part who us */
+  /* start part reviews  */
+  .review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .reviews {
+    margin-left: 30px;
+    width: 90%;
+    padding: 60px 30px;
+    margin: auto;
+  }
+  .reviews::after {
+    top: -25px;
+    width: 60px;
+    height: 50px;
+  }
+  .reviews .text {
+    text-align: center !important;
+    padding: 10px 0;
+    margin: auto;
+  }
+  .reviews .text p {
+    margin: auto;
+  }
+  .reviews .text h2 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .reviews .autoplay2 .slides {
+    text-align: center;
+    align-items: center;
+  }
+  .reviews .autoplay2 div p {
+    color: white;
+    margin-top: 50px;
+    line-height: 1rem;
+    font-size: 10px;
+  }
+  .reviews .autoplay2 .slides .person div {
+    align-items: center;
+    margin-right: 30px;
+  }
+  .reviews .autoplay2 .slides .person div h5 {
+    font-size: 13px;
+  }
+  /* end part reviews  */
+}
+@media (max-width: 375px) {
+  .col .image {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+  }
+  .col .image .bg-transform img {
+    width: 50%;
+    height: 50%;
+  }
+  .col .image .bg-transform {
+    left: -10px;
+    animation-duration: 2s;
+  }
+  @keyframes trans {
+    0% {
+      left: -30px;
+    }
+    50% {
+      left: -25px;
+    }
+    100% {
+      left: -30px;
+    }
+  }
+  .col .image .bg-back {
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+  .col .image .bg-back img {
+    width: 150px;
+  }
+  .col .image .bg-number {
+    position: absolute;
+    bottom: 0%;
+    left: -30px;
+    width: 130px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .col .image .bg-number p {
+    margin: auto;
+    font-weight: bolder;
+    font-size: 13px;
+  }
+  .col .image .bg-number .num {
+    color: var(--button);
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+  }
+  .col .image .bg-front {
+    right: -13%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .col .image .bg-front img {
+    width: 40%;
+  }
+  /* end part who us */
+  .work {
+    font-size: 14px;
+    text-align: left;
+  }
+}
